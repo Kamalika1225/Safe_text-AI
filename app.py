@@ -7,7 +7,7 @@ from datetime import datetime
 # LOAD MODEL
 # =========================================================
 
-with open("model/scam_detector.pkl", "rb") as file:
+with open("scam_detector.pkl", "rb") as file:
     model = pickle.load(file)
 
 
